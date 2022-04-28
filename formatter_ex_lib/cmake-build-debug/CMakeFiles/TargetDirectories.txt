@@ -1,0 +1,4 @@
+/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/lib_formatter_ex.dir
+/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib/cmake-build-debug/CMakeFiles/formatter_lib_ex.dir

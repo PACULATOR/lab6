@@ -1,0 +1,48 @@
+name: CIformatterr
+
+on:
+  push:
+    branches: master 
+  pull_request: 
+    branches: master
+  
+jobs:
+  build_all:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+      - name: build_formatter
+        run: |
+          cd formatter_lib
+          cmake .
+          make 
+          cd ..
+          
+      - name: build_formatter_ex
+        run: |
+          cd formatter_ex_lib 
+          cmake . 
+          make 
+          cd ..
+      
+      - name: build_hello_world
+
+        run: |
+          cd hello_world_application
+          cmake .
+          make
+
+          cd ..
+      - name: build solver_lib
+        run: |
+          cd solver_lib
+          cmake .
+          make
+          cd ..
+
+      - name: build solver_application
+        run: |
+          cd solver_application
+          cmake .
+          make
+          cd ..

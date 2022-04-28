@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ram/pca02/Рабочий стол/lab_3_temp/cmake_lab_3/formatter_lib/formatter.cpp
+formatter.h
+/home/ram/pca02/Рабочий стол/lab_3_temp/cmake_lab_3/formatter_lib/formatter.h
+
+/home/ram/pca02/Рабочий стол/lab_3_temp/cmake_lab_3/formatter_lib/formatter.h
+string
+-
+

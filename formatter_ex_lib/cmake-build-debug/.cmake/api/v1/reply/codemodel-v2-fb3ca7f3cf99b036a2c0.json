@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "formatter_lib_ex",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "formatter_lib_ex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formatter_lib_ex-Debug-27b82dbb135cfb35c34a.json",
+					"name" : "formatter_lib_ex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lib_formatter_ex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib_formatter_ex-Debug-0bc077710a06f4589404.json",
+					"name" : "lib_formatter_ex",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib/cmake-build-debug",
+		"source" : "/home/paculator/Рабочий стол/cmake_lab_3/cmake_lab_3/lab03/formatter_ex_lib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
