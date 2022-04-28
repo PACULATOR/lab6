@@ -1,0 +1,1 @@
+/home/paculator/github4ik /lab_6_2/lab_6/solver_application/_output3/_CPack_Packages/Linux/TZ/Solver/bin/solver

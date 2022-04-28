@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "formatter_ex/formatter_lib",
+		"source" : "/home/paculator/github4ik /lab_6_2/lab_6/formatter_lib"
+	}
+}

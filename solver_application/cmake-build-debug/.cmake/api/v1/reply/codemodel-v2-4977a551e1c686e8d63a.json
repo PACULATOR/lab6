@@ -1,0 +1,181 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a06887d9975a3394d7b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "formatter_ex",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-formatter_ex-Debug-f6a1fa8e135e8cee144f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/paculator/github4ik /lab_6_2/lab_6/formatter_ex_lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "formatter_ex/formatter_lib",
+					"jsonFile" : "directory-formatter_ex.formatter_lib-Debug-0626ed084ca7902be6e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/paculator/github4ik /lab_6_2/lab_6/formatter_lib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "solver_lib",
+					"jsonFile" : "directory-solver_lib-Debug-05a3547faab289436589.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "/home/paculator/github4ik /lab_6_2/lab_6/solver_lib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "solver",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "formatter_ex",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "formatter_lib",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "solver_lib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "formatter_ex::@5713e3e197c55857be1c",
+					"jsonFile" : "target-formatter_ex-Debug-84996ffb8339e0aa2f82.json",
+					"name" : "formatter_ex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "formatter_lib::@e529b5da7e31d8ef4632",
+					"jsonFile" : "target-formatter_lib-Debug-8aafb6ca89d7e08117d2.json",
+					"name" : "formatter_lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solver-Debug-49196c4117faf6ff7015.json",
+					"name" : "solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "solver_lib::@4c1206184cc644b3e567",
+					"jsonFile" : "target-solver_lib-Debug-59af36f7316e8daf94f8.json",
+					"name" : "solver_lib",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paculator/github4ik /lab_6_2/lab_6/solver_application/cmake-build-debug",
+		"source" : "/home/paculator/github4ik /lab_6_2/lab_6/solver_application"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

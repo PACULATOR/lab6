@@ -1,0 +1,4 @@
+/home/paculator/Desktop/clionnn/clion-2021.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/paculator/Desktop/clionnn/clion-2021.3.3/bin/ninja/linux/ninja -G Ninja "/home/paculator/github4ik /lab_6_2/lab_6/solver_application"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/paculator/github4ik /lab_6_2/lab_6/solver_application/cmake-build-debug
