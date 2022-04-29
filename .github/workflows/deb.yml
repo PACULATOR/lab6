@@ -18,6 +18,7 @@ jobs:
         run: |
           cd solver_application 
           cmake -DCPACK_GENERATOR_DEB=ON -B _output
+          cd _output
           make package
           make package_source
           cd ..
