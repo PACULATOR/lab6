@@ -29,9 +29,9 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-      - name: upload
-        id: upload
-        uses: actions/upload@v1
+      - name: upload release asset
+        id: upload-release-asser
+        uses: actions/upload-release-asset@v1
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
