@@ -1,14 +1,14 @@
-name: MSI Release
+name: RPM Release
 
 on:
   push:
     tags:
-      - 'msi_*'
+      - 'rpm_*'
 
 jobs:
   build:
     permissions: write-all
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: checkout
@@ -17,9 +17,11 @@ jobs:
       - name: build solver_application
         run: |
           cd solver_application
-          cmake -DCPACK_GENERATOR_MSI=ON -B ./_output
+          cmake -DCPACK_GENERATOR_RPM=ON -B ./_output
           cd _output
-          cpack -C CPackConfig.cmake -G "WIX"
+          make package
+          make package_source
+          cd ..
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -35,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: solver_application/_output/Solver.msi
-          asset_name: Solver.msi
-          asset_content_type: application/msi
+          asset_path: solver_application/_output/Solver.rpm
+          asset_name: Solver.rpm
+          asset_content_type: application/rpm
