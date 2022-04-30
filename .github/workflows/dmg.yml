@@ -37,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: solver_application/_output/Solver.dmg
-          asset_name: Solver.dmg
-          asset_content_type: application/dmg
+          asset_path: solver_application/_output/Solver.tar.z
+          asset_name: Solver.tar.z
+          asset_content_type: application/tar.z
