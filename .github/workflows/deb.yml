@@ -36,6 +36,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: solver_application/_build2/Solver.deb
+          asset_path: solver_application/_output/Solver.deb
           asset_name: Solver.deb
           asset_content_type: application/deb
