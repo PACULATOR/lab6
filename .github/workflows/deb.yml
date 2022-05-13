@@ -22,6 +22,25 @@ jobs:
           make package
           make package_source
           cd ..
+          
+      - name: Upload Artifact v1
+        uses: actions/upload-artifact@v3
+        with:
+          name: hello_world
+          path: ./hello_world_application/hello.txt
+          
+      - name: downld Artifact v1
+        uses: actions/download-artifact@v3
+        with:
+          name: hello_world
+          path: ./artifact
+  
+      - name: check
+        with:
+          run: |
+            ls -R
+            cat hello.txt
+            
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -40,3 +59,4 @@ jobs:
           asset_path: solver_application/_output/Solver.deb
           asset_name: Solver.deb
           asset_content_type: application/deb
+        
